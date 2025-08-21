@@ -37,7 +37,7 @@ cmd({
             categorized[c.category].push(c.pattern);
         }
 
-        // Build Menu Header with Flowers
+        // Build Menu Header
         let menuText = `
 ╭─⋄⋅🌺⋅⋄──⋅🌷⋅──⋄⋅🌸⋅⋄─╮
        ${botName.toUpperCase()}
@@ -63,7 +63,7 @@ cmd({
 ${'\u200B'.repeat(4001)}  💎
 `;
 
-        // Original Command Formatting
+        // List commands per category
         for (let category in categorized) {
             menuText += `\n★ *${category.toUpperCase()}*\n`;
             categorized[category].forEach(cmd => {
@@ -81,10 +81,26 @@ ${'\u200B'.repeat(4001)}  💎
 ╰────────────────╯
 `;
 
-        // Send Menu
+        // Send menu image
         await conn.sendMessage(m.chat, {
             image: { url: "https://files.catbox.moe/h4voyb.jpeg" },
             caption: menuText,
+            contextInfo: {
+                forwardingScore: 999,
+                isForwarded: true,
+                forwardedNewsletterMessageInfo: {
+                    newsletterJid: "120363288304618280@newsletter",
+                    newsletterName: "PK-XMD",
+                    serverMessageId: -1
+                }
+            }
+        }, { quoted: m });
+
+        // Send PTT audio after menu
+        await conn.sendMessage(m.chat, {
+            audio: { url: "https://files.catbox.moe/340wh3.mp3" }, // weka link yako ya sauti hapa
+            mimetype: 'audio/mpeg',
+            ptt: true,
             contextInfo: {
                 forwardingScore: 999,
                 isForwarded: true,
@@ -101,4 +117,3 @@ ${'\u200B'.repeat(4001)}  💎
         reply("❌ Failed to display menu");
     }
 });
-        
