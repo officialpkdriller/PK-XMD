@@ -9,7 +9,7 @@
     "restart": "pm2 restart PK-XMD"
   },
   "dependencies": {
-    "@whiskeysockets/baileys": "npm:baileys@6.7.18",
+    "@whiskeysockets/baileys": "^6.7.21",
     "@adiwajshing/keyed-db": "^0.2.4",
     "@dark-yasiya/yt-dl.js": "1.0.5",
     "@ffmpeg-installer/ffmpeg": "^1.1.0",
