@@ -1,105 +1,126 @@
 <p align="center">
-  <h1 align="center" style="font-family: 'Orbitron', sans-serif; text-shadow: 0 0 10px #00ffff, 0 0 20px #0088ff;">PK-XMD</h1>
+  <h1 align="center" style="font-family: 'Orbitron', sans-serif; font-size: 50px; text-shadow: 0 0 15px #00ffff, 0 0 30px #8a2be2;">⚡ PK-XMD ⚡</h1>
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=600&size=25&duration=4000&pause=1000&color=00F7FF&center=true&vCenter=true&width=500&lines=ULTIMATE+WHATSAPP+BOT;MULTI-DEVICE+SUPPORT;POWERED+BY+PK-DRILLER;FAST++SECURE++RELIABLE" alt="Animated Typing SVG" />
-
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=PK-XMD&label=VISITORS&style=flat-square&color=0002FF" />
+  <img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=700&size=28&duration=3500&pause=800&color=00F7FF&center=true&vCenter=true&width=600&lines=ULTIMATE+WHATSAPP+BOT;MULTI-DEVICE+SUPPORT;POWERED+BY+PK-DRILLER;FAST+⚡+SECURE+🔒+RELIABLE" />
 </p>
 
-
-
----
-
-*Dont forget to fork & star repo*
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=officialPkdriller&label=VISITORS&style=for-the-badge&color=8a2be2"/>
+</p>
 
 ---
 
-<div align="center">
-  <img src="https://files.catbox.moe/e24otb.jpeg" width="300" style="border-radius: 20px; box-shadow: 0 0 20px #00ffff;"/>
-</div>
+## 🌟 Support the Project
 
-<div align="center">
-  <img src="https://i.imgur.com/LyHic3i.gif" width="400" style="border-radius: 20px; box-shadow: 0 0 25px #0088ff;"/>
-</div>
-
-
-## 🛰️ Deployment Steps
-
-<div style="background: #000000; border: 1px solid #00ffff; border-radius: 15px; padding: 20px; box-shadow: 0 0 15px #00ffff; margin-bottom: 30px;">
-    
-<div style="background: #111111; padding: 15px; border-radius: 10px; border-left: 3px solid #ff00ff;">
-  <p style="color: #00ffff;">First star & Fork repo using button Below !</p>
-  <a href='https://github.com/officialPkdriller/NEXUS-AI/fork'starget="_blank">
-    <img src='https://img.shields.io/badge/FORK_REPOSITORY-008000?style=for-the-badge&logo=github&logoColor=white&labelColor=000000'/>
+<p align="center">
+  <a href="https://github.com/officialPkdriller/NEXUS-AI/fork">
+    <img src="https://img.shields.io/badge/🍴_FORK_REPO-00ffff?style=for-the-badge&logo=github&logoColor=black&labelColor=000000" width="300"/>
   </a>
-</div>
+</p>
 
-</div>
+<p align="center">
+  <a href="https://github.com/officialPkdriller/NEXUS-AI">
+    <img src="https://img.shields.io/badge/⭐_STAR_REPO-8a2be2?style=for-the-badge&logo=github&logoColor=white&labelColor=000000" width="300"/>
+  </a>
+</p>
 
-<div style="background: #000000; border: 1px solid #ff00ff; border-radius: 15px; padding: 20px; box-shadow: 0 0 15px #ff00ff; margin-bottom: 30px;">
-  
-<div style="background: #111111; padding: 15px; border-radius: 10px; border-left: 3px solid #00ffff;">
-  
---- 
-> **PAIRING LINK**
-  <a href='https://keithxmd-session.onrender.com' target="_blank">
-    <img src='https://img.shields.io/badge/PAIR_CODE_1-00FFFF?style=for-the-badge&logo=matrix&logoColor=white&labelColor=000000'/>
-  </a></br>
-  
-  
+---
 
-## 📡 DEPLOYMENT OPTIONS
+## 🖼️ Preview
 
-<div align="center">
-  <table>
-    <tr>
-      <td><a href="https://app.koyeb.com/services/deploy?type=git&repository=officialpkdiller/PK-XMD" target="_blank"><img src="https://img.shields.io/badge/Koyeb-FF009D?style=for-the-badge&logo=koyeb&logoColor=white&labelColor=000000"/></a></td>
-      <td><a href="https://railway.app/new" target="_blank"><img src="https://img.shields.io/badge/Railway-FF8700?style=for-the-badge&logo=railway&logoColor=white&labelColor=000000"/></a></td>
-    </tr>
-    <tr>
-      <td><a href="https://dashboard.render.com/web/new" target="_blank"><img src="https://img.shields.io/badge/Render-000000?style=for-the-badge&logo=render&logoColor=white&labelColor=000000&color=00ffaa"/></a></td>
-      <td></td>
-    </tr>
-  </table>
-</div>
+<p align="center">
+  <img src="https://files.catbox.moe/e24otb.jpeg" width="300" style="border-radius: 20px; box-shadow: 0 0 25px #00ffff;"/>
+</p>
 
-<table align="center">
-  <tr>
-    <td>
-      <a href="https://whatsapp.com/channel/0029VbAchaI59PwSijs6a81f" target="_blank">
-        <img alt="View Workflow Codes" src="https://img.shields.io/badge/View-Workflow%20Codes-FF0076?style=for-the-badge&logo=githubactions&logoColor=white"/>
-      </a>
-    </td>
-  </tr>
-</table>  
+<p align="center">
+  <img src="https://i.imgur.com/LyHic3i.gif" width="420" style="border-radius: 20px; box-shadow: 0 0 30px #8a2be2;"/>
+</p>
 
-<div align="center">
- 
+---
 
-##  BOT FEATURES
+# 🚀 Deployment Options
+
+## 🔹 1. Deploy on Heroku
+
+<p align="center">
+  <a href="https://heroku.com/deploy?template=https://github.com/officialPkdriller/NEXUS-AI">
+    <img src="https://img.shields.io/badge/🚀_DEPLOY_TO_HEROKU-430098?style=for-the-badge&logo=heroku&logoColor=white" width="350"/>
+  </a>
+</p>
+
+---
+
+## 🔹 2. Deploy on Panel (Pterodactyl)
+
+<p align="center">
+  <a href="#">
+    <img src="https://img.shields.io/badge/🖥️_DEPLOY_ON_PANEL-00ffff?style=for-the-badge&logo=server&logoColor=black&labelColor=000000" width="350"/>
+  </a>
+</p>
+
+### 📌 Panel Steps
 
 ```bash
-- Music downloaders
-- Video and Ytmp3
-- Antilink and Delete
-- Super Fast
-- High performance on groups
-
+git clone https://github.com/officialPkdriller/NEXUS-AI
+cd NEXUS-AI
+npm install
+npm start
 ```
 
+---
 
+## 🔹 3. Run Locally
 
-## 🪀  SUPPORT CHANNEL
+```bash
+git clone https://github.com/officialPkdriller/NEXUS-AI
+cd NEXUS-AI
+npm install
+npm start
+```
 
-<div align="center">
-  <a href="https://whatsapp.com/channel/0029VbAchaI59PwSijs6a81f">
-    <img src="https://img.shields.io/badge/Join-WhatsApp%20Channel-25D366?style=for-the-badge&logo=whatsapp&logoColor=white&labelColor=000000"/>
+---
+
+# ⚙️ Features
+
+* ✅ Multi-Device WhatsApp Bot
+* ⚡ Fast Performance
+* 🔒 Secure System
+* 🎵 Music Downloader
+* 🤖 AI Commands
+* 🧠 Auto Features
+* 🖼️ Sticker Maker
+* 📥 Media Downloader
+* 🛡️ Anti-Delete / Anti-Link
+
+---
+
+# 🧑‍💻 Developer
+
+<p align="center">
+  <img src="https://img.shields.io/badge/PK-DRILLER-8a2be2?style=for-the-badge&logo=github&logoColor=white"/>
+</p>
+
+---
+
+# ⚠️ Disclaimer
+
+> This bot is for educational purposes only.
+> Misuse may lead to account ban.
+
+---
+
+# 💬 Connect
+
+<p align="center">
+  <a href="#">
+    <img src="https://img.shields.io/badge/💬_WHATSAPP-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" width="250"/>
   </a>
-</div>
+</p>
 
-<div align="center">
-  
- 
+---
+
+<p align="center">
+  <b>🔥 PK-XMD — NEXT LEVEL WHATSAPP BOT 🔥</b>
+</p>
