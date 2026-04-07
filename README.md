@@ -52,10 +52,10 @@
 
 ---
 
-## 🔹 2. Deploy on Panel (Pterodactyl)
+## 🔹 2. Deploy on Panel 
 
 <p align="center">
-  <a href="https://github.com/officialPkdriller/NEXUS-AI">
+  <a href="https://github.com/officialPkdriller/PK-XMD">
     <img src="https://img.shields.io/badge/🖥️_DEPLOY_ON_PANEL-00ffff?style=for-the-badge&logo=server&logoColor=black&labelColor=000000" width="350"/>
   </a>
 </p>
