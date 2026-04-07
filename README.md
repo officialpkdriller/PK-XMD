@@ -6,9 +6,7 @@
   <img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=700&size=28&duration=3500&pause=800&color=00F7FF&center=true&vCenter=true&width=600&lines=ULTIMATE+WHATSAPP+BOT;MULTI-DEVICE+SUPPORT;POWERED+BY+PK-DRILLER;FAST+⚡+SECURE+🔒+RELIABLE" />
 </p>
 
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=officialPkdriller&label=VISITORS&style=for-the-badge&color=8a2be2"/>
-</p>
+
 
 ---
 
@@ -55,7 +53,7 @@
 ## 🔹 2. Deploy on Panel (Pterodactyl)
 
 <p align="center">
-  <a href="#">
+  <a href=".https://github.com/officialPkdriller/NEXUS-AI/zip">
     <img src="https://img.shields.io/badge/🖥️_DEPLOY_ON_PANEL-00ffff?style=for-the-badge&logo=server&logoColor=black&labelColor=000000" width="350"/>
   </a>
 </p>
@@ -114,7 +112,7 @@ npm start
 # 💬 Connect
 
 <p align="center">
-  <a href="#">
+  <a href="https://whatsapp.com/channel/0029VbAchaI59PwSijs6a81f">
     <img src="https://img.shields.io/badge/💬_WHATSAPP-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" width="250"/>
   </a>
 </p>
