@@ -2,9 +2,11 @@
   <h1 align="center" style="font-family: 'Orbitron', sans-serif; font-size: 50px; text-shadow: 0 0 15px #00ffff, 0 0 30px #8a2be2;">⚡ PK-XMD ⚡</h1>
 </p>
 
+
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=700&size=28&duration=3500&pause=800&color=00F7FF&center=true&vCenter=true&width=600&lines=ULTIMATE+WHATSAPP+BOT;MULTI-DEVICE+SUPPORT;POWERED+BY+PK-DRILLER;FAST+⚡+SECURE+🔒+RELIABLE" />
+  <img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=600&size=25&duration=4000&pause=1000&color=00F7FF&center=true&vCenter=true&width=500&lines=ULTIMATE+WHATSAPP+BOT;MULTI-DEVICE+SUPPORT;POWERED+BY+KEITH;FAST++SECURE++RELIABLE" alt="Animated Typing SVG" />
 </p>
+
 
 
 
