@@ -55,7 +55,7 @@
 ## 🔹 2. Deploy on Panel (Pterodactyl)
 
 <p align="center">
-  <a href=".https://github.com/officialPkdriller/NEXUS-AI">
+  <a href="https://github.com/officialPkdriller/NEXUS-AI">
     <img src="https://img.shields.io/badge/🖥️_DEPLOY_ON_PANEL-00ffff?style=for-the-badge&logo=server&logoColor=black&labelColor=000000" width="350"/>
   </a>
 </p>
@@ -99,7 +99,7 @@ npm start
 # 🧑‍💻 Developer
 
 <p align="center">
-  <img src="https://img.shields.io/badge/PK-DRILLER-8a2be2?style=for-the-badge&logo=github&logoColor=white"/>
+  <img src="https://img.shields.io/badge/officialpkdiller-8a2be2?style=for-the-badge&logo=github&logoColor=white"/>
 </p>
 
 ---
