@@ -7,7 +7,10 @@
   <img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=600&size=25&duration=4000&pause=1000&color=00F7FF&center=true&vCenter=true&width=500&lines=ULTIMATE+WHATSAPP+BOT;MULTI-DEVICE+SUPPORT;POWERED+BY+MR-PKDRILLER;FAST++SECURE++RELIABLE" alt="Animated Typing SVG" />
 </p>
 
-
+<p><strong> Pair Code (Session ID)</strong></p>
+<a href='https://pk-xmd-pairing-website.onrender.com/' target="_blank">
+  <img alt='Pairing Code' src='https://img.shields.io/badge/Get%20Pairing%20Code-orange?style=for-the-badge&logo=opencv&logoColor=pink'/>
+</a>
 
 
 ---
