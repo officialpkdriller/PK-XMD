@@ -31,7 +31,7 @@
 ## 🖼️ Preview
 
 <p align="center">
-  <img src="https://files.catbox.moe/e24otb.jpeg" width="300" style="border-radius: 20px; box-shadow: 0 0 25px #00ffff;"/>
+  <img src="https://url.bmbxmd.workers.dev/ZNAII.jpg" width="300" style="border-radius: 20px; box-shadow: 0 0 25px #00ffff;"/>
 </p>
 
 <p align="center">
