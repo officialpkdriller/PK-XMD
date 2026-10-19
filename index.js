@@ -64,7 +64,7 @@ try {
 
 const { verifierEtatJid } = require("./lib/antilien");
 const { atbverifierEtatJid , atbrecupererActionJid } = require("./lib/antibot");
-let evt = require(__dirname + "/devbmb/bmbtz");
+let evt = require(__dirname + "/devpk/pkdriller");
 const {isUserBanned , addUserToBanList , removeUserFromBanList} = require("./lib/banUser");
 const  {addGroupToBanList,isGroupBanned,removeGroupFromBanList} = require("./lib/banGroup");
 const {isGroupOnlyAdmin,addGroupToOnlyAdminList,removeGroupFromOnlyAdminList} = require("./lib/onlyAdmin");
