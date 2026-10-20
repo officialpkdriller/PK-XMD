@@ -1,9 +1,9 @@
 {
-  "name": "BMB-TECH",
-  "description": "ʙᴇsᴛ ᴡʜᴀᴛsᴀᴘᴘ ʙᴏᴛ ᴅᴇᴠᴇʟᴏᴘᴇᴅ ʙʏ ʙᴍʙ ᴛᴇᴄʜ 🇹🇿",
+  "name": "PK-XMD",
+  "description": "ʙᴇsᴛ ᴡʜᴀᴛsᴀᴘᴘ ʙᴏᴛ ᴅᴇᴠᴇʟᴏᴘᴇᴅ ʙʏ mr pkdriller",
   "keywords": ["bot", "node", "baileys", "whatsapp"],
-  "logo": "https://files.catbox.moe/hflcbc.jpg",
-  "repository": "https://github.com/novaxmd/BMB-TECH",
+  "logo": "https://url.bmbxmd.workers.dev/644WW.jpg",
+  "repository": "https://github.com/officialpkdriller/PK-XMD",
   "succes_url": "/",
   "stack": "heroku-24",
   "env": {
