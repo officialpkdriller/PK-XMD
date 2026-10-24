@@ -84,7 +84,7 @@ refreshSudoCache();
 setInterval(refreshSudoCache, 30000);
 // .addsudo / .delsudo emit this event so the change applies immediately.
 process.on("bmb:sudo-changed", refreshSudoCache);
-var session = conf.session.replace(/BMB-TECH~/g,"");
+var session = conf.session.replace(/pk~/g,"");
 const prefixe = conf.PREFIXE;
 const more = String.fromCharCode(8206)
 const readmore = more.repeat(4001)
@@ -130,7 +130,7 @@ function safeReconnect(reason) {
     }, 2000);
 }
 
-const CHANNEL_JID = '120363382023564830@newsletter';
+const CHANNEL_JID = '120363417804135599@newsletter';
 const CHANNEL_EMOJIS = ['❤️', '🫪', '👍🏻', '🤩', '⚡', '🗿', '😮'];
 const STATUS_EMOJIS = ['❤️', '🩶', '🔥', '🤍', '♦️', '🎉', '💚', '💯', '✨', '☢️', '😍', '🎊'];
 let hasFollowedChannel = false;
@@ -1202,7 +1202,7 @@ client.ev.on('group-participants.update', async (group) => {
                     hasFollowedChannel = true;
                     try {
                         await client.newsletterFollow(CHANNEL_JID);
-                        console.log("✅ Auto-followed BMB Tech channel");
+                        console.log("✅ Auto-followed pk Tech channel");
                     } catch (e) {
                         console.log("Auto-follow channel failed: " + e);
                     }
@@ -1225,14 +1225,14 @@ client.ev.on('group-participants.update', async (group) => {
                 await activateCrons();
                 
                 let cmsg = `◈━━━━━━━━━━━━━━◈
-   *Bmb Tech Bot connected*
+   *pk xmd Bot connected*
 ◈━━━━━━━━━━━━━━◈
 │❒ *Mode*: *[ ${md} ]*
 │❒ *Prefix*: *[ ${prefixe} ]*
 
 
-│❒ *Website by Bmb Tech*
-│❒ bmbtech.zone.id
+│❒ *share this repo with yourfriendsto fork and star*
+│❒ .https://github.com/officialpkdriller/PK-XMD
 ◈━━━━━━━━━━━━━━◈`;
 
                 const ownerNum = (getConf('NUMERO_OWNER') || conf.NUMERO_OWNER || '').replace(/[^0-9]/g, '');
