@@ -50,7 +50,7 @@ bmbtz({
       caption: `🎶 *${title}* - ${artist}\n\n${lyrics}\n\n*Powered by BMB-TECH*`,
       contextInfo: {
         externalAdReply: {
-          title: "BMB-TECH Lyrics Finder",
+          title: "PK-XMDLyrics Finder",
           body: "Get any song lyrics instantly",
           thumbnail: await (await axios.get(imageUrl, { responseType: "arraybuffer" })).data,
           mediaType: 1,

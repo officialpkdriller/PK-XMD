@@ -22,7 +22,7 @@ bmbtz({
     const uptime = process.uptime();
     const uptimeStr = `${Math.floor(uptime / 3600)}h ${Math.floor((uptime % 3600) / 60)}m`;
 
-    const msg = `*📡 BMB-TECH PING*\n` +
+    const msg = `*📡 PK-XMDPING*\n` +
       `\n` +
       `⏱️ Response: *${ping}ms*\n` +
       `📆 Date: *${date}*\n` +
@@ -42,7 +42,7 @@ bmbtz({
           serverMessageId: 143
         },
         externalAdReply: {
-          title: "⚡ BMB-TECH SYSTEM STATUS",
+          title: "⚡ PK-XMDSYSTEM STATUS",
           body: "Bot is running smoothly 🚀",
           thumbnailUrl: conf.URL,
           sourceUrl: conf.URL,

@@ -11,7 +11,7 @@
  * OBJECTS instead:
  *
  *   participants: [{ id: "126302740856945@lid",
- *                     phoneNumber: "255767862457@s.whatsapp.net",
+ *                     phoneNumber: "254799056874@s.whatsapp.net",
  *                     admin: null }]
  *
  * Calling `.endsWith()` on one of these objects threw

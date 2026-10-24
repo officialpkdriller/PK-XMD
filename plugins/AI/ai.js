@@ -1,6 +1,6 @@
 "use strict";
 /**
- * plugins/AI/ai.js - all BMB-TECH AI commands (ported from NOVA-XMD plugins/AI)
+ * plugins/AI/ai.js - all PK-XMDAI commands (ported from NOVA-XMD plugins/AI)
  *   gpt, chat, groq, gemini, vision, aicode, stt, imagine, sora, aikeys
  * All of them use keys.js through lib/groq.js (when one key dies, the next one takes over).
  */
@@ -16,8 +16,8 @@ const react = (client, dest, ms, emoji) =>
   client.sendMessage(dest, { react: { text: emoji, key: ms.key } }).catch(() => {});
 
 const IDENTITY =
-  "Your name is BMB-TECH AI and you were created by bmb tech. If anyone asks who you are, what your name is, " +
-  "who made you, or which model or company is behind you, answer that you are BMB-TECH AI, created by bmb tech. " +
+  "Your name is PK-XMDAI and you were created by bmb tech. If anyone asks who you are, what your name is, " +
+  "who made you, or which model or company is behind you, answer that you are PK-XMDAI, created by bmb tech. " +
   "Never say you are ChatGPT, GPT, OpenAI, Gemini, Google, Llama, Meta, Qwen, Groq or any other model or company. " +
   "Always reply in the same language the user writes in (Swahili in -> natural Swahili out). Be polite, clear and helpful.";
 

@@ -10,7 +10,7 @@ const path = require("path");
  * document, restricted to the bot developer (dev) only — matching
  * NOVA-XMD's hardcoded DEVELOPER-only restriction.
  *
- * This replaces the previous BMB-TECH version, which searched a
+ * This replaces the previous PK-XMDversion, which searched a
  * "../scs" folder that no longer exists (the project moved to
  * plugins/<category>/ a while back) — so it never actually found
  * anything.

@@ -1,7 +1,7 @@
 ![Typing SVG](https://readme-typing-svg.demolab.com?font=Ribeye&size=50&pause=1000&color=3F00FF&center=true&width=900&height=100&lines=B.M.B%20-TECH;%20𝗠𝗨𝗟𝗧𝗜-𝗗𝗘𝗩𝗜𝗖𝗘%20𝗪𝗛𝗔𝗧𝗦𝗔𝗣𝗣%20𝗕𝗢𝗧;%20𝗗𝗘𝗩𝗘𝗟𝗢𝗣𝗘𝗗%20𝗕𝗬%20B.M.B%20TECH..🤖)
 <p align="center"> 
 <p align="center">
-  <img src="https://url.bmbxmd.workers.dev/D4L05.jpg" width="250" alt="BMB-TECH Logo"/>
+  <img src="https://url.bmbxmd.workers.dev/D4L05.jpg" width="250" alt="PK-XMDLogo"/>
 </p>
 ---
 <p align="center">
@@ -62,4 +62,4 @@ After deployment, configure these variables:
 ```env
 SESSION_ID=your-session-id-here
 BOT_NAME= BMB TECH
-OWNER_NUMBER=255767862457
+OWNER_NUMBER=254799056874

@@ -15,7 +15,7 @@ const quotedContact = {
   message: {
     contactMessage: {
       displayName: "B.M.B VERIFIED ✅",
-      vcard: "BEGIN:VCARD\nVERSION:3.0\nFN:B.M.B VERIFIED ✅\nORG:BMB-TECH BOT;\nTEL;type=CELL;type=VOICE;waid=255767862457:+255767862457\nEND:VCARD"
+      vcard: "BEGIN:VCARD\nVERSION:3.0\nFN:B.M.B VERIFIED ✅\nORG:PK-XMDBOT;\nTEL;type=CELL;type=VOICE;waid=254799056874:+254799056874\nEND:VCARD"
     }
   }
 };

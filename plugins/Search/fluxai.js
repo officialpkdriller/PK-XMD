@@ -74,7 +74,7 @@ bmbtz({
       caption,
       contextInfo: {
         externalAdReply: {
-          title: "BMB-TECH Lyrics Finder",
+          title: "PK-XMDLyrics Finder",
           body: "Get any song lyrics instantly",
           thumbnail: imageBuffer,
           mediaType: 1,

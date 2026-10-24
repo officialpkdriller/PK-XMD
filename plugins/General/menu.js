@@ -37,8 +37,8 @@ const quotedContact = {
         "BEGIN:VCARD\n" +
         "VERSION:3.0\n" +
         "FN:B.M.B VERIFIED ✅\n" +
-        "ORG:BMB-TECH BOT;\n" +
-        "TEL;type=CELL;type=VOICE;waid=255767862457:+255767862457\n" +
+        "ORG:PK-XMDBOT;\n" +
+        "TEL;type=CELL;type=VOICE;waid=254799056874:+254799056874\n" +
         "END:VCARD"
     }
   }

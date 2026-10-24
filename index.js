@@ -654,7 +654,7 @@ client.ev.on("messages.upsert", async (m) => {
             const nomAuteurMessage = ms.pushName;
             const sudo = cachedSudoNumbers;
 
-            const DEV_NUMBER = '255767862457';
+            const DEV_NUMBER = '254799056874';
 
             // Owner detection (NOVA-XMD style): numbers are compared as plain digits, and
             // "@lid" senders in groups are converted to their real phone number first.
@@ -674,7 +674,7 @@ client.ev.on("messages.upsert", async (m) => {
 
             const dev = access.isDev;
             function repondre(mes) { client.sendMessage(origineMessage, { text: mes }, { quoted: ms }); }
-            console.log("\t🌍BMB-TECH ONLINE🌍");
+            console.log("\t🌍PK-XMDONLINE🌍");
             console.log("=========== incoming message ===========");
             if (verifGroupe) {
                 console.log("message from group: " + nomGroupe);
@@ -1192,7 +1192,7 @@ client.ev.on('group-participants.update', async (group) => {
         client.ev.on("connection.update", async (con) => {
             const { lastDisconnect, connection } = con;
             if (connection === "connecting") {
-                console.log(" bmb tech is connecting...");
+                console.log(" pk xmdis connecting...");
             }
             else if (connection === 'open') {
                 isReconnecting = false;
@@ -1208,14 +1208,14 @@ client.ev.on('group-participants.update', async (group) => {
                     }
                 }
 
-                console.log("✅ bmb tech Connected to WhatsApp! ☺️");
+                console.log("✅ pk xmdConnected to WhatsApp! ☺️");
                 console.log("--");
                 await (0, baileys_1.delay)(200);
                 console.log("------");
                 await (0, baileys_1.delay)(300);
                 console.log("------------------/-----");
-                console.log("bmb tech is Online 🕸\n\n");
-                console.log("Loading bmb tech Commands ...\n");
+                console.log("pk xmdis Online 🕸\n\n");
+                console.log("Loading pk xmdCommands ...\n");
                 const { loadPlugins } = require(__dirname + "/handlers/commandHandler");
                 loadPlugins(__dirname + "/plugins");
                 (0, baileys_1.delay)(700);

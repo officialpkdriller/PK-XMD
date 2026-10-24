@@ -13,7 +13,7 @@ const quotedContact = {
   message: {
     contactMessage: {
       displayName: "B.M.B VERIFIED ✅",
-      vcard: "BEGIN:VCARD\nVERSION:3.0\nFN:B.M.B VERIFIED ✅\nORG:BMB-TECH BOT;\nTEL;type=CELL;type=VOICE;waid=255767862457:+255767862457\nEND:VCARD"
+      vcard: "BEGIN:VCARD\nVERSION:3.0\nFN:B.M.B VERIFIED ✅\nORG:PK-XMDBOT;\nTEL;type=CELL;type=VOICE;waid=254799056874:+254799056874\nEND:VCARD"
     }
   }
 };
@@ -47,7 +47,7 @@ bmbtz({
     const imdbData = response.data;
 
     let imdbInfo = "THANKS ALL FOR THE SUPPORT ITS ME PKDRILLER \n";
-    imdbInfo += " ``` BMB-TECH FILMS```\n";
+    imdbInfo += " ``` PK-XMDFILMS```\n";
     imdbInfo += "*Made by 𝙱.𝙼.𝙱-𝚇𝙼𝙳*\n";
     imdbInfo += "🎬Title    : " + imdbData.Title + "\n";
     imdbInfo += "📅year      : " + imdbData.Year + "\n";

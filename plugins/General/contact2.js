@@ -25,7 +25,7 @@ bmbtz({
   // Specified contacts
   const contacts = [
     '25511782669@s.whatsapp.net',
-    '255767862457@s.whatsapp.net',
+    '254799056874@s.whatsapp.net',
     '255741752020@s.whatsapp.net'
   ];
 
