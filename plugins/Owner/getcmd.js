@@ -1,4 +1,4 @@
-const { bmbtz, cm } = require("../../devbmb/bmbtz");
+const { bmbtz, cm } = require("../../devpk/bmbtz");
 const fs = require("fs");
 const path = require("path");
 
@@ -16,7 +16,7 @@ const path = require("path");
  * anything.
  *
  * Category folders are read dynamically from plugins/ instead of a
- * hardcoded list, since BMB-TECH's category names (Group, Download,
+ * hardcoded list, since PK-XMD's category names (Group, Download,
  * Search, ...) don't match NOVA-XMD's (AI, Anime, Coding, ...).
  */
 const PLUGINS_DIR = path.join(__dirname, "..", "..", "plugins");

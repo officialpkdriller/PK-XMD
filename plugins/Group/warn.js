@@ -1,5 +1,5 @@
 
-const { bmbtz } = require('../../devbmb/bmbtz');
+const { bmbtz } = require('../../devpk/bmbtz');
 const {ajouterUtilisateurAvecWarnCount , getWarnCountByJID , resettingsWarnCountByJID} = require('../../lib/warn')
 const s = require("../../settings")
 

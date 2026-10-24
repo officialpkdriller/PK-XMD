@@ -2,7 +2,7 @@
 /**
  * commandHandler.js
  *
- * Recursive plugin loader for BMB-TECH.
+ * Recursive plugin loader for PK-XMD.
  * Replaces the old flat "require every file in /scs" loop in index.js.
  * Walks /plugins/<category>/*.js and requires each one, so each command
  * file's own bmbtz({...}) call registers it exactly like before.

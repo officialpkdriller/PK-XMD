@@ -1,4 +1,4 @@
-const { bmbtz } = require("../../devbmb/bmbtz");
+const { bmbtz } = require("../../devpk/bmbtz");
 const conf = require(__dirname + "/../../settings");
 
 // VCard Contact kwa quoting
@@ -55,7 +55,7 @@ bmbtz({
       isForwarded: true,
       mentionedJid: msgRepondu ? [auteurMsgRepondu] : [],
       forwardedNewsletterMessageInfo: {
-        newsletterJid: "120363382023564830@newsletter",
+        newsletterJid: "120363417804135599@newsletterr",
         newsletterName: "𝙽𝙾𝚅𝙰-𝚇𝙼𝙳",
         serverMessageId: 1
       }
@@ -110,7 +110,7 @@ bmbtz({
       isForwarded: true,
       mentionedJid: msgRepondu ? [auteurMsgRepondu] : [],
       forwardedNewsletterMessageInfo: {
-        newsletterJid: "120363382023564830@newsletter",
+        newsletterJid: "120363417804135599@newsletterr",
         newsletterName: "𝙽𝙾𝚅𝙰-𝚇𝙼𝙳",
         serverMessageId: 1
       }

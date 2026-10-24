@@ -1,4 +1,4 @@
-const { bmbtz } = require('../../devbmb/bmbtz');
+const { bmbtz } = require('../../devpk/bmbtz');
 let { Sticker, StickerTypes } = require('wa-sticker-formatter');
 
 bmbtz({
@@ -45,7 +45,7 @@ bmbtz({
         let media = await client.downloadAndSaveMediaMessage(msgRepondu.stickerMessage, '', true, 'sticker');
 
         let stickerMess = new Sticker(media, {
-            pack: 'BMB-TECH',
+            pack: 'PK-XMD',
             type: StickerTypes.CROPPED,
             categories: ["🤩", "🎉"],
             id: "12345",

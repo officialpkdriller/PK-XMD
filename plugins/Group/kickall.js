@@ -1,5 +1,5 @@
 "use strict";
-const { bmbtz } = require("../../devbmb/bmbtz");
+const { bmbtz } = require("../../devpk/bmbtz");
 const ownerAccess = require("../../lib/ownerAccess");
 
 /**

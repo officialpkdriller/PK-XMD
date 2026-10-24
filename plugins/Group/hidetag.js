@@ -1,4 +1,4 @@
-const { bmbtz } = require("../../devbmb/bmbtz");
+const { bmbtz } = require("../../devpk/bmbtz");
 let { Sticker, StickerTypes } = require('wa-sticker-formatter');
 
 bmbtz({ nomCom: "tag", alias: ["hidetag", "announce"], categorie: 'Group', reaction: "🎤" }, async (dest, client, commandeOptions) => {
@@ -37,7 +37,7 @@ bmbtz({ nomCom: "tag", alias: ["hidetag", "announce"], categorie: 'Group', react
     } else if (msgRepondu.stickerMessage) {
       let media = await client.downloadAndSaveMediaMessage(msgRepondu.stickerMessage, '', true, 'sticker');
       let stickerMess = new Sticker(media, {
-        pack: 'bmb-tech',
+        pack: 'PK-XMD',
         type: StickerTypes.CROPPED,
         categories: ["🤩", "🎉"],
         id: "12345",

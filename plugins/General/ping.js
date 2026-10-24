@@ -1,4 +1,4 @@
-const { bmbtz } = require("../../devbmb/bmbtz");
+const { bmbtz } = require("../../devpk/bmbtz");
 const os = require("os");
 const moment = require("moment-timezone");
 const conf = require("../../settings");
@@ -37,7 +37,7 @@ bmbtz({
         forwardingScore: 999,
         isForwarded: true,
         forwardedNewsletterMessageInfo: {
-          newsletterJid: "120363382023564830@newsletter",
+          newsletterJid: "120363417804135599@newsletterr",
           newsletterName: "bmb tech",
           serverMessageId: 143
         },

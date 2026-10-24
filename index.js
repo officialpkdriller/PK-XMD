@@ -1,5 +1,5 @@
 "use strict";
-// Verify the core command registry (devbmb/bmbtz.js) hasn't been
+// Verify the core command registry (devpk/bmbtz.js) hasn't been
 // renamed, removed, or tampered with before anything else loads — see
 // lib/integrityGuard.js for what exactly this checks and why.
 require("./lib/integrityGuard").verifyIntegrity(__dirname);
@@ -64,11 +64,11 @@ try {
 
 const { verifierEtatJid } = require("./lib/antilien");
 const { atbverifierEtatJid , atbrecupererActionJid } = require("./lib/antibot");
-let evt = require(__dirname + "/devbmb/bmbtz");
+let evt = require(__dirname + "/devpk/bmbtz");
 const {isUserBanned , addUserToBanList , removeUserFromBanList} = require("./lib/banUser");
 const  {addGroupToBanList,isGroupBanned,removeGroupFromBanList} = require("./lib/banGroup");
 const {isGroupOnlyAdmin,addGroupToOnlyAdminList,removeGroupFromOnlyAdminList} = require("./lib/onlyAdmin");
-let { reagir } = require(__dirname + "/devbmb/app");
+let { reagir } = require(__dirname + "/devpk/app");
 const { getAllSudoNumbers } = require("./lib/sudo");
 const ownerAccess = require("./lib/ownerAccess");
 const noPrefix = require("./lib/noPrefix");
@@ -163,7 +163,7 @@ async function main() {
         const sockOptions = {
             version,
             logger: pino({ level: "silent" }),
-            browser: ['Bmb-Tech', "safari", "1.0.0"],
+            browser: ['PK-XMD', "safari", "1.0.0"],
             printQRInTerminal: true,
             fireInitQueries: false,
             shouldSyncHistoryMessage: (msg) => {
@@ -580,7 +580,7 @@ client.ev.on("messages.upsert", async (m) => {
     if (messageContent.slice(1).toLowerCase() === "vcf") {
         if (!sender.endsWith("@g.us")) {
             await client.sendMessage(sender, {
-                text: `❌ This command only works in groups.\n\n🚀 Bmb Tech`,
+                text: `❌ This command only works in groups.\n\n🚀 Pk tech`,
             });
             return;
         }
@@ -804,7 +804,7 @@ if (getConf('AUTO_READ') === 'on' && !ms.key.fromMe) {
         
                 if (ms.message[mtype].contextInfo.mentionedJid && (ms.message[mtype].contextInfo.mentionedJid.includes(idBot) ||  ms.message[mtype].contextInfo.mentionedJid.includes(conf.NUMERO_OWNER + '@s.whatsapp.net'))) {
             
-                    if (origineMessage == "120363382023564830@newsletter") {
+                    if (origineMessage == "120363417804135599@newsletterr") {
                         return;
                     } ;
             
@@ -988,7 +988,7 @@ if (getConf('AUTO_READ') === 'on' && !ms.key.fromMe) {
             var txt = "bot detected, \n";
             const gifLink = "https://github.com/novaxmd/BMB-XMD-DATA/raw/refs/heads/main/remover.gif";
             var sticker = new Sticker(gifLink, {
-                pack: 'Bmb-Tech',
+                pack: 'PK-XMD',
                 author: conf.OWNER_NAME,
                 type: StickerTypes.FULL,
                 categories: ['🤩', '🎉'],

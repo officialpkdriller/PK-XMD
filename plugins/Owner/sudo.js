@@ -5,7 +5,7 @@
  *   .delsudo <number | @mention | reply>   remove a sudo user   (owner only)
  *   .sudolist                              list sudo users      (owner / sudo)
  */
-const { bmbtz } = require("../../devbmb/bmbtz");
+const { bmbtz } = require("../../devpk/bmbtz");
 const sudoLib = require("../../lib/sudo");
 const ownerAccess = require("../../lib/ownerAccess");
 

@@ -1,4 +1,4 @@
-const { bmbtz } = require("../../devbmb/bmbtz");
+const { bmbtz } = require("../../devpk/bmbtz");
 const axios = require("axios");
 
 /**
@@ -62,7 +62,7 @@ bmbtz({
     return repondre(`🎶 *${title}* - ${artist}\n\n(No lyrics text available for this track — only metadata was found.)`);
   }
 
-  const caption = `🎶 *${title}* - ${artist}\n\n${lyricsText}\n\n*Powered by BMB-TECH*`;
+  const caption = `🎶 *${title}* - ${artist}\n\n${lyricsText}\n\n*Powered by PK-XMD*`;
   const imageUrl = thumbnail && thumbnail !== "-" ? thumbnail : "https://files.catbox.moe/rpea5k.jpg";
 
   try {

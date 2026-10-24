@@ -1,4 +1,4 @@
-const { bmbtz } = require("../../devbmb/bmbtz");
+const { bmbtz } = require("../../devpk/bmbtz");
 const { getGroupFeature, setGroupFeature } = require("../../lib/groupProtection");
 const db = require("../../database/db");
 
@@ -6,7 +6,7 @@ const db = require("../../database/db");
  * antistatusmention
  *
  * Ported from NOVA-XMD's updated antistatusmention settings command
- * (4 modes: off/delete/warn/kick), adapted to BMB-TECH's bmbtz()
+ * (4 modes: off/delete/warn/kick), adapted to PK-XMD's bmbtz()
  * command style and lib/groupProtection.js storage instead of
  * database/config.js's getGroupSettings/updateGroupSetting.
  *

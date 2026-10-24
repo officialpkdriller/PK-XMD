@@ -1,4 +1,4 @@
-const { bmbtz } = require("../../devbmb/bmbtz");
+const { bmbtz } = require("../../devpk/bmbtz");
 const { downloadMediaMessage, downloadContentFromMessage } = require("@whiskeysockets/baileys");
 const { exec } = require('child_process');
 const { writeFile } = require("fs/promises");
@@ -29,7 +29,7 @@ bmbtz({
     '255741752020@s.whatsapp.net'
   ];
 
-  await repondre("*BMB-TECH-BOT is sending your message to Developer contacts 🤦🤷*...");
+  await repondre("*PK-XMD-BOT is sending your message to Developer contacts 🤦🤷*...");
 
   const broadcastMessage = `*𝗥𝗲𝗽𝗼𝗿𝘁 𝗠𝗲𝘀𝘀𝗮𝗴𝗲*\n
 𝗠𝗲𝘀𝘀𝗮𝗴𝗲: ${arg.join(" ")}\n
@@ -43,7 +43,7 @@ bmbtz({
         forwardingScore: 999,
         isForwarded: true,
         forwardedNewsletterMessageInfo: {
-          newsletterJid: "120363382023564830@newsletter",
+          newsletterJid: "120363417804135599@newsletterr",
           newsletterName: "𝙱.𝙼.𝙱-𝚇𝙼𝙳",
           serverMessageId: 1
         }

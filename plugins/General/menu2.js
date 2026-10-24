@@ -1,6 +1,6 @@
 "use strict";
 // PK-XMDmenu1 - ONE message, picture-style layout (v2)
-const { bmbtz } = require("../../devbmb/bmbtz");
+const { bmbtz } = require("../../devpk/bmbtz");
 const fs = require("fs-extra");
 const path = require("path");
 const moment = require("moment-timezone");
@@ -51,7 +51,7 @@ const contextInfo = {
   forwardingScore: 999,
   isForwarded: true,
   forwardedNewsletterMessageInfo: {
-    newsletterJid: "120363382023564830@newsletter",
+    newsletterJid: "120363417804135599@newsletterr",
     newsletterName: "𝙱.𝙼.𝙱-𝚇𝙼𝙳",
     serverMessageId: 1
   }
@@ -171,7 +171,7 @@ async function sendMenu(client, dest, text, mybotpic) {
 // ====== MAIN COMMAND ======
 // If an older file already registered "menu1", that one answers instead of this one. Say so in the logs.
 try {
-  const registered = require(__dirname + "/../../devbmb/bmbtz").cm;
+  const registered = require(__dirname + "/../../devpk/bmbtz").cm;
   if (Array.isArray(registered) && registered.some((c) => c && c.nomCom === "menu1")) {
     console.log("⚠️ [menu1] another plugin file already defines the menu1 command. Delete the old file so this one is used.");
   }
@@ -183,7 +183,7 @@ bmbtz({
   reaction: "🌚",
 }, async (dest, client, commandeOptions) => {
   const { repondre, prefixe, arg, mybotpic } = commandeOptions;
-  const { cm } = require(__dirname + "/../../devbmb/bmbtz");
+  const { cm } = require(__dirname + "/../../devpk/bmbtz");
 
   const settings = getCachedSettingsSync() || {};
   const prefix = prefixe || ".";

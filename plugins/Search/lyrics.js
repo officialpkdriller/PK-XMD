@@ -1,4 +1,4 @@
-const { bmbtz } = require("../../devbmb/bmbtz");
+const { bmbtz } = require("../../devpk/bmbtz");
 const axios = require("axios");
 
 bmbtz({
@@ -47,7 +47,7 @@ bmbtz({
     
     await client.sendMessage(dest, {
       image: Buffer.from(imageResponse.data),
-      caption: `🎶 *${title}* - ${artist}\n\n${lyrics}\n\n*Powered by BMB-TECH*`,
+      caption: `🎶 *${title}* - ${artist}\n\n${lyrics}\n\n*Powered by PK-XMD*`,
       contextInfo: {
         externalAdReply: {
           title: "PK-XMDLyrics Finder",

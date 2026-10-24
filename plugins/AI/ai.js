@@ -5,7 +5,7 @@
  * All of them use keys.js through lib/groq.js (when one key dies, the next one takes over).
  */
 const { downloadContentFromMessage } = require("@whiskeysockets/baileys");
-const { bmbtz } = require("../../devbmb/bmbtz");
+const { bmbtz } = require("../../devpk/bmbtz");
 const groq = require("../../lib/groq");
 const mem = require("../../lib/aiMemory");
 const keys = require("../../keys");
@@ -269,7 +269,7 @@ bmbtz({ nomCom: "imagine", alias: ["aiimage", "dream", "generate"], categorie: "
   try {
     const image = await pollImage(prompt, 768, 768);
     await react(client, dest, ms, "✅");
-    await client.sendMessage(dest, { image, caption: box("🤖 *AI IMAGE*", `Prompt: ${prompt}\nPowered by BMB-TECH`) }, { quoted: ms });
+    await client.sendMessage(dest, { image, caption: box("🤖 *AI IMAGE*", `Prompt: ${prompt}\nPowered by PK-XMD`) }, { quoted: ms });
   } catch (e) {
     console.log("imagine error:", e.message);
     await react(client, dest, ms, "❌");

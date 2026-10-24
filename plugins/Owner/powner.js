@@ -7,7 +7,7 @@
  * added the bot). Only the owner / creator can use it.
  * Owners = the creator number + every number in OWNER_NUMBER / NUMERO_OWNER.
  */
-const { bmbtz } = require("../../devbmb/bmbtz");
+const { bmbtz } = require("../../devpk/bmbtz");
 const ownerAccess = require("../../lib/ownerAccess");
 
 const LINE = "━━━━━━━━━━━━━━━━";

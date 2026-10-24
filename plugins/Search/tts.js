@@ -1,5 +1,5 @@
 const googleTTS = require('google-tts-api');
-const {bmbtz} = require("../../devbmb/bmbtz");
+const {bmbtz} = require("../../devpk/bmbtz");
 
 
 bmbtz( {

@@ -1,4 +1,4 @@
-const { bmbtz } = require('../../devbmb/bmbtz');
+const { bmbtz } = require('../../devpk/bmbtz');
 let { Sticker, StickerTypes } = require('wa-sticker-formatter');
 
 bmbtz({
@@ -25,7 +25,7 @@ bmbtz({
         forwardingScore: 999,
         isForwarded: true,
         forwardedNewsletterMessageInfo: {
-            newsletterJid: "120363382023564830@newsletter",
+            newsletterJid: "120363417804135599@newsletterr",
             newsletterName: "𝙱.𝙼.𝙱-𝚇𝙼𝙳",
             serverMessageId: 1
         }
@@ -79,7 +79,7 @@ bmbtz({
         } else if (msgRepondu.stickerMessage) {
             let media = await client.downloadAndSaveMediaMessage(msgRepondu.stickerMessage, '', true, 'sticker');
             let stickerMess = new Sticker(media, {
-                pack: 'BMB-TECH',
+                pack: 'PK-XMD',
                 type: StickerTypes.CROPPED,
                 categories: ["🤩", "🎉"],
                 id: "12345",

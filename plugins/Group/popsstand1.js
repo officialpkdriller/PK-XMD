@@ -1,5 +1,5 @@
 const { exec } = require("child_process");
-const { bmbtz } = require("../../devbmb/bmbtz");
+const { bmbtz } = require("../../devpk/bmbtz");
 const { Sticker, StickerTypes } = require("wa-sticker-formatter");
 const { ajouterOuMettreAJourJid, mettreAJourAction, verifierEtatJid } = require('../../lib/antilien');
 const { atbajouterOuMettreAJourJid, atbverifierEtatJid } = require('../../lib/antibot');
@@ -76,18 +76,18 @@ bmbtz({
 
     for (let member of participants) {
       let number = member.id.split('@')[0];
-      let name = member.name || member.notify || `[BMB-TECH] +${number}`;
+      let name = member.name || member.notify || `[PK-XMD] +${number}`;
       vcardData += `BEGIN:VCARD\nVERSION:3.0\nFN:${name}\nTEL;type=CELL;type=VOICE;waid=${number}:+${number}\nEND:VCARD\n`;
     }
 
-    repondre(`A moment, *BMB-TECH* is compiling ${participants.length} contacts into a vcf...`);
+    repondre(`A moment, *PK-XMD* is compiling ${participants.length} contacts into a vcf...`);
     fs.writeFileSync("./contacts.vcf", vcardData.trim());
 
     await sock.sendMessage(jid, {
       document: fs.readFileSync("./contacts.vcf"),
       mimetype: "text/vcard",
       fileName: `${metadata.subject}.vcf`,
-      caption: `VCF for ${metadata.subject}\nTotal Contacts: ${participants.length}\n*THANKS FOR USING BMB-TECH*`
+      caption: `VCF for ${metadata.subject}\nTotal Contacts: ${participants.length}\n*THANKS FOR USING PK-XMD*`
     }, { ephemeralExpiration: 86400, quoted: ms });
 
     fs.unlinkSync('./contacts.vcf');

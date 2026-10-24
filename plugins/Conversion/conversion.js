@@ -1,6 +1,6 @@
 const { Sticker, createSticker, StickerTypes } = require('wa-sticker-formatter');
-const { bmbtz } = require("../../devbmb/bmbtz");
-const traduire = require("../../devbmb/traduction");
+const { bmbtz } = require("../../devpk/bmbtz");
+const traduire = require("../../devpk/traduction");
 const { downloadMediaMessage,downloadContentFromMessage } =  require('@whiskeysockets/baileys');
 const fs =require("fs-extra") ;
 const axios = require('axios');  
@@ -94,7 +94,7 @@ const alea = (ext) => {
     }
 
     sticker = new Sticker(buffer, {
-      pack:"Bmb-Tech", // pack stick
+      pack:"PK-XMD", // pack stick
       author:  nomAuteurMessage, // name of the author of the stick
       type:
         arg.includes("-r") || arg.includes("-c")
@@ -218,7 +218,7 @@ bmbtz({ nomCom: "write", categorie: "Conversion", reaction: "☘️" }, async (o
     // Create the sticker
     const stickerMess = new Sticker(meme, {
       pack: nomAuteurMessage,
-      author: 'Bmb-Tech',
+      author: 'PK-XMD',
       type: StickerTypes.FULL,
       categories: ["🤩", "🎉"],
       id: "12345",
@@ -312,7 +312,7 @@ async (dest, client, commandeOptions) => {
 
     const stickerMess = new Sticker(gifUrl, {
       pack: packname,
-      author: 'BMB-TECH',
+      author: 'PK-XMD',
       type: StickerTypes.FULL,
       categories: ["🤩", "🎉"],
       id: "12345",

@@ -1,5 +1,5 @@
 const axios = require("axios");
-const { bmbtz } = require("../../devbmb/bmbtz");
+const { bmbtz } = require("../../devpk/bmbtz");
 
 bmbtz({
   nomCom: "screenshot",
@@ -20,7 +20,7 @@ bmbtz({
       forwardingScore: 999,
       isForwarded: true,
       forwardedNewsletterMessageInfo: {
-        newsletterJid: "120363382023564830@newsletter",
+        newsletterJid: "120363417804135599@newsletterr",
         newsletterName: "B.M.B TECH",
         serverMessageId: 0x8f
       }

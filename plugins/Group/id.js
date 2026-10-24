@@ -1,4 +1,4 @@
-const { bmbtz } = require("../../devbmb/bmbtz");
+const { bmbtz } = require("../../devpk/bmbtz");
 const pkg = require("@whiskeysockets/baileys");
 const { generateWAMessageFromContent, proto, prepareWAMessageMedia } = pkg;
 
@@ -79,7 +79,7 @@ bmbtz({
                 text: infoText
               }),
               footer: proto.Message.InteractiveMessage.Footer.create({
-                text: "© BMB-TECH"
+                text: "© PK-XMD"
               }),
               header: proto.Message.InteractiveMessage.Header.create(headerProps),
               nativeFlowMessage:

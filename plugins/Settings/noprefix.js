@@ -6,7 +6,7 @@
  *   .noprefix owner   only the owner and sudo users
  *   .noprefix off     prefix always required
  */
-const { bmbtz } = require("../../devbmb/bmbtz");
+const { bmbtz } = require("../../devpk/bmbtz");
 const { getCachedSettingsSync, updateCachedSetting } = require("../../lib/settingsCache");
 const noPrefix = require("../../lib/noPrefix");
 

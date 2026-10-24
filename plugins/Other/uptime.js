@@ -1,4 +1,4 @@
-const { bmbtz } = require("../../devbmb/bmbtz");
+const { bmbtz } = require("../../devpk/bmbtz");
 // Built into Node, so no extra package (performance-now) is needed.
 const { performance } = require("perf_hooks");
 const speed = () => performance.now();

@@ -1,5 +1,5 @@
 const fs = require('fs-extra');
-const { bmbtz } = require(__dirname + "/../../devbmb/bmbtz");
+const { bmbtz } = require(__dirname + "/../../devpk/bmbtz");
 const s = require(__dirname + "/../../settings");
 const more = String.fromCharCode(8206);
 const readmore = more.repeat(4001);
@@ -40,7 +40,7 @@ bmbtz({ nomCom: "payment", categorie: "General" }, async (dest, client, commande
       forwardingScore: 999,
       isForwarded: true,
       forwardedNewsletterMessageInfo: {
-        newsletterJid: "120363382023564830@newsletter",
+        newsletterJid: "120363417804135599@newsletterr",
         newsletterName: "𝙽𝙾𝚅𝙰-𝚇𝙼𝙳",
         serverMessageId: 1
       }

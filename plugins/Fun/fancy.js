@@ -1,5 +1,5 @@
-const { bmbtz } = require("../../devbmb/bmbtz");
-const fancy = require("../../devbmb/style");
+const { bmbtz } = require("../../devpk/bmbtz");
+const fancy = require("../../devpk/style");
 
 const pkg = require("@whiskeysockets/baileys");
 const { generateWAMessageFromContent, proto } = pkg;
@@ -44,7 +44,7 @@ bmbtz(
           {
             text:
               `Example:\n${prefixe}fancy 10 bmb tech\n\n` +
-              fancy.list("BMB-TECH", fancy)
+              fancy.list("PK-XMD", fancy)
           },
           { quoted: quotedContact }
         );

@@ -1,11 +1,11 @@
-const { bmbtz } = require("../../devbmb/bmbtz");
+const { bmbtz } = require("../../devpk/bmbtz");
 
 /**
  * remove
  *
  * Fixed a real bug while splitting this out: the alias field was
  * spelled `aliases: ["kick"]`, but the command registry only reads
- * `alias` (see devbmb/bmbtz.js / how index.js checks
+ * `alias` (see devpk/bmbtz.js / how index.js checks
  * `bmbtz.alias.includes(com)`) — so ".kick" has never actually worked
  * as an alias for this command until now.
  */

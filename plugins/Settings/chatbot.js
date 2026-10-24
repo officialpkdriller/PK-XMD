@@ -5,7 +5,7 @@
  *   .chatbotpm on/off  -> reply to DMs only
  *   .allow <number>    -> allow specific numbers while autoai/chatbotpm are off
  */
-const { bmbtz } = require("../../devbmb/bmbtz");
+const { bmbtz } = require("../../devpk/bmbtz");
 const { getSetting, updateCachedSetting } = require("../../lib/settingsCache");
 const { getAllowed, getFlag } = require("../../lib/chatbot");
 

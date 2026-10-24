@@ -1,4 +1,4 @@
-const { bmbtz } = require('../../devbmb/bmbtz');
+const { bmbtz } = require('../../devpk/bmbtz');
 const { atbajouterOuMettreAJourJid, atbmettreAJourAction, atbverifierEtatJid, atbrecupererActionJid } = require('../../lib/antibot');
 
 bmbtz({

@@ -1,7 +1,7 @@
 {
-  "name": "BMB-TECH",
+  "name": "PK-XMD",
   "version": "1.1.0",
-  "description": "bmb-tech-Whatsapp-bot",
+  "description": "PK-XMD-Whatsapp-bot",
   "main": "index.js",
   "type": "commonjs",
   "scripts": {
@@ -13,11 +13,11 @@
     "whatsapp-bot",
     "whatsapp-baileys",
     "bmb-md",
-    "bmb-tech",
+    "PK-XMD",
     "bmb-xmd",
-    "bmb-tech-Whatsapp-bot"
+    "PK-XMD-Whatsapp-bot"
   ],
-  "author": "BMB-TECH",
+  "author": "PK-XMD",
   "license": "ISC",
   "dependencies": {
     "@whiskeysockets/baileys": "npm:bmbtech-baileys@latest",

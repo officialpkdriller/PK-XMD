@@ -1,6 +1,6 @@
-const { bmbtz } = require("../../devbmb/bmbtz");
+const { bmbtz } = require("../../devpk/bmbtz");
 const canvacord = require("canvacord");
-const {uploadImageToImgur} = require("../../devbmb/imgur")
+const {uploadImageToImgur} = require("../../devpk/imgur")
 
 // Generic function to create a canvacord order
 function createCanvacordCommand(commandName, canvacordFunction) {

@@ -10,7 +10,7 @@
  *       The bot starts a fresh copy of itself and then exits ("spawn" mode).
  * Force a mode with the RESTART_MODE env var ("exit" or "spawn") if the automatic choice is wrong.
  */
-const { bmbtz } = require("../../devbmb/bmbtz");
+const { bmbtz } = require("../../devpk/bmbtz");
 const fs = require("fs");
 const { spawn } = require("child_process");
 

@@ -1,5 +1,5 @@
 const axios = require("axios");
-const { bmbtz } = require("../../devbmb/bmbtz");
+const { bmbtz } = require("../../devpk/bmbtz");
 
 // VCard Contact for quoting
 const quotedContact = {
@@ -37,7 +37,7 @@ bmbtz({
           forwardingScore: 999,
           isForwarded: true,
           forwardedNewsletterMessageInfo: {
-            newsletterJid: "120363382023564830@newsletter",
+            newsletterJid: "120363417804135599@newsletterr",
             newsletterName: "𝗕.𝗠.𝗕-𝗧𝗘𝗖𝗛",
             serverMessageId: 2
           }

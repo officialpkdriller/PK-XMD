@@ -1,4 +1,4 @@
-const { bmbtz } = require("../../devbmb/bmbtz");
+const { bmbtz } = require("../../devpk/bmbtz");
 const fs = require("fs-extra");
 
 bmbtz({ nomCom: "gpp", alias: ["setgpp", "groupicon"], categorie: 'Group' }, async (dest, client, commandeOptions) => {

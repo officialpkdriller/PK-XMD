@@ -2,7 +2,7 @@
 /**
  * database/db.js
  *
- * Unified storage for BMB-TECH, ported from NOVA-XMD's database/config.js
+ * Unified storage for PK-XMD, ported from NOVA-XMD's database/config.js
  * (originally ES Modules) to CommonJS.
  *
  * Backend selection (same fallback order as NOVA-XMD):

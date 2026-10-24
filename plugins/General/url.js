@@ -1,4 +1,4 @@
-const { bmbtz } = require("../../devbmb/bmbtz");
+const { bmbtz } = require("../../devpk/bmbtz");
 const pkg = require("@whiskeysockets/baileys");
 const { generateWAMessageFromContent, proto } = pkg;
 const axios = require("axios");
@@ -115,7 +115,7 @@ bmbtz({
 🔑 *ID:* ${shortId}
 🌐 *Link:* ${mediaUrl}
 ━━━━━━━━━━━━━━━━
-© BMB-TECH`;
+© PK-XMD`;
 
     // Create buttons
     const buttons = [
@@ -142,7 +142,7 @@ bmbtz({
                 text: textMessage
               }),
               footer: proto.Message.InteractiveMessage.Footer.create({
-                text: "© BMB-TECH"
+                text: "© PK-XMD"
               }),
               header: proto.Message.InteractiveMessage.Header.create({
                 title: "",

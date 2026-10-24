@@ -1,4 +1,4 @@
-const { bmbtz } = require("../../devbmb/bmbtz")
+const { bmbtz } = require("../../devpk/bmbtz")
 const { Sticker, StickerTypes } = require('wa-sticker-formatter');
 const { ajouterOuMettreAJourJid, mettreAJourAction, verifierEtatJid } = require("../../lib/antilien")
 const { atbajouterOuMettreAJourJid, atbverifierEtatJid } = require("../../lib/antibot")
@@ -54,7 +54,7 @@ bmbtz({ nomCom: "tagadmin", categorie: 'Group', reaction: "🪰" }, async (dest,
       isForwarded: true,
       mentionedJid: adminsGroupe.map(i => i.id),
       forwardedNewsletterMessageInfo: {
-        newsletterJid: "120363382023564830@newsletter",
+        newsletterJid: "120363417804135599@newsletterr",
         newsletterName: "𝙽𝙾𝚅𝙰-𝚇𝙼𝙳",
         serverMessageId: 1
       }

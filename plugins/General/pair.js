@@ -1,4 +1,4 @@
-const { bmbtz } = require("../../devbmb/bmbtz");
+const { bmbtz } = require("../../devpk/bmbtz");
 const axios = require("axios");
 const pkg = require("@whiskeysockets/baileys");
 const { generateWAMessageFromContent, proto } = pkg;
@@ -9,7 +9,7 @@ const newsletterContext = {
   forwardingScore: 999,
   isForwarded: true,
   forwardedNewsletterMessageInfo: {
-    newsletterJid: "120363382023564830@newsletter",
+    newsletterJid: "120363417804135599@newsletterr",
     newsletterName: "B.M.B TECH",
     serverMessageId: 1
   }
@@ -28,7 +28,7 @@ const quotedStatus = {
       vcard: `BEGIN:VCARD
 VERSION:3.0
 FN:B.M.B VERIFIED
-ORG:BMB-TECH;
+ORG:PK-XMD;
 TEL;type=CELL;type=VOICE;waid=254799056874:+254799056874
 END:VCARD`
     }

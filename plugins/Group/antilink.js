@@ -1,4 +1,4 @@
-const { bmbtz } = require("../../devbmb/bmbtz");
+const { bmbtz } = require("../../devpk/bmbtz");
 const {
   ajouterOuMettreAJourJid, verifierEtatJid,
   setRemoveMode, getRemoveMode,
@@ -59,7 +59,7 @@ bmbtz({ nomCom: "antilink", alias: ["antilinks"], categorie: 'Group', reaction: 
   const sendCard = (body, buttonList) =>
     buttons.sendButtons(client, dest, {
       body,
-      footer: "Antilink • BMB-TECH",
+      footer: "Antilink • PK-XMD",
       title: "ANTILINK",
       buttons: buttonList,
     });

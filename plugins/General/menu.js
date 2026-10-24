@@ -1,10 +1,10 @@
-const { bmbtz } = require("../../devbmb/bmbtz");
+const { bmbtz } = require("../../devpk/bmbtz");
 const util = require("util");
 const fs = require("fs-extra");
 const path = require("path");
 const os = require("os");
 const moment = require("moment-timezone");
-const { format } = require(__dirname + "/../../devbmb/mesfonctions");
+const { format } = require(__dirname + "/../../devpk/mesfonctions");
 const s = require(__dirname + "/../../settings");
 
 // ====== LOAD RANDOM IMAGE FROM /scs FOLDER ======
@@ -49,7 +49,7 @@ const contextInfo = {
   forwardingScore: 999,
   isForwarded: true,
   forwardedNewsletterMessageInfo: {
-    newsletterJid: "120363382023564830@newsletter",
+    newsletterJid: "120363417804135599@newsletterr",
     newsletterName: "𝙱.𝙼.𝙱-𝚇𝙼𝙳",
     serverMessageId: 1
   }
@@ -61,13 +61,13 @@ function getBotInfo(mode, totalCommands) {
   const totalRAM = format(os.totalmem());
 
   return `
-╭───「 *BMB-TECH* 」─────⊛
+╭───「 *PK-XMD* 」─────⊛
 ┃⊛╭───────────────⊛
 ┃⊛│☢️ *Mode*: ${mode.toUpperCase()}
 ┃⊛│🖥️ *RAM*: ${usedRAM} / ${totalRAM}
 ┃⊛│📦 *Commands*: ${totalCommands}
 ┃⊛│✅ *Status*: ONLINE
-┃⊛│👑 *Creator* : Bmb Tech
+┃⊛│👑 *Creator* : Pk tech
 ┃⊛│🌐 *website* : bmbtech.online
 ┃⊛╰━━━━━━━━━━━━━━⊛
 ╰━━━━━━━━━━━━━━━━━━━━⊛
@@ -81,7 +81,7 @@ bmbtz({
   reaction: "🌚",
 }, async (dest, client, commandeOptions) => {
   const { ms, repondre, prefixe } = commandeOptions;
-  const { cm } = require(__dirname + "/../../devbmb/bmbtz");
+  const { cm } = require(__dirname + "/../../devpk/bmbtz");
 
   // ====== GROUP COMMANDS BY CATEGORY ======
   let coms = {};

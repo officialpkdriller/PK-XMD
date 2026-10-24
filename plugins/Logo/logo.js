@@ -1,4 +1,4 @@
-const { bmbtz } = require("../../devbmb/bmbtz");
+const { bmbtz } = require("../../devpk/bmbtz");
 const mumaker = require("mumaker");
 
 // VCard Contact
@@ -21,7 +21,7 @@ const contextInfo = {
   forwardingScore: 999,
   isForwarded: true,
   forwardedNewsletterMessageInfo: {
-    newsletterJid: "120363382023564830@newsletter",
+    newsletterJid: "120363417804135599@newsletterr",
     newsletterName: "𝙱.𝙼.𝙱-𝚇𝙼𝙳",
     serverMessageId: 1
   }
@@ -103,7 +103,7 @@ logoCommands.forEach(({ nomCom, categorie, reaction, makerUrl }) => {
     const { arg, repondre, ms, prefixe } = commandeOptions;
 
     if (!arg || arg == "") {
-      return repondre(`Exemple of using:\n ${prefixe}${nomCom} bmb-tech`);
+      return repondre(`Exemple of using:\n ${prefixe}${nomCom} PK-XMD`);
     }
 
     try {

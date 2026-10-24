@@ -15,7 +15,7 @@
  *   - In a private chat it can only delete the command message if it was sent from the bot's own account.
  * When something cannot be deleted the command simply does nothing (a note is written to the log).
  */
-const { bmbtz } = require("../../devbmb/bmbtz");
+const { bmbtz } = require("../../devpk/bmbtz");
 const ownerAccess = require("../../lib/ownerAccess");
 
 const d = (v) => ownerAccess.digits(v);

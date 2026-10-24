@@ -8,7 +8,7 @@
  *                  links ending in ?mode=...        a bare 22-character invite code
  * Owner / sudo only.
  */
-const { bmbtz } = require("../../devbmb/bmbtz");
+const { bmbtz } = require("../../devpk/bmbtz");
 
 const LINK_RE = /(?:https?:\/\/)?chat\.whatsapp\.com\/(?:invite\/)?([A-Za-z0-9_-]{16,32})/i;
 const BARE_CODE_RE = /^[A-Za-z0-9_-]{20,24}$/;

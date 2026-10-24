@@ -1,4 +1,4 @@
-const { bmbtz } = require("../../devbmb/bmbtz");
+const { bmbtz } = require("../../devpk/bmbtz");
 
 bmbtz({ nomCom: "gdesc", alias: ["setgroupdesc", "groupdesc"], categorie: 'Group' }, async (dest, client, commandeOptions) => {
   const { arg, repondre, verifAdmin, superUser } = commandeOptions;

@@ -3,7 +3,7 @@
  * plugins/Owner/whoami.js - shows how the bot sees YOU (available to everyone).
  * Use it to find out why a command says "only the owner" and which value to set.
  */
-const { bmbtz } = require("../../devbmb/bmbtz");
+const { bmbtz } = require("../../devpk/bmbtz");
 const ownerAccess = require("../../lib/ownerAccess");
 
 const LINE = "━━━━━━━━━━━━━━━━";

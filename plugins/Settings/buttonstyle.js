@@ -10,7 +10,7 @@
  *
  * This works even when the buttons are not shown on your phone: the command answers with plain text.
  */
-const { bmbtz } = require("../../devbmb/bmbtz");
+const { bmbtz } = require("../../devpk/bmbtz");
 const { getCachedSettingsSync, updateCachedSetting } = require("../../lib/settingsCache");
 const buttons = require("../../lib/buttons");
 
@@ -46,7 +46,7 @@ bmbtz({
   if (wanted === "test") {
     const used = await buttons.sendButtons(client, dest, {
       body: `${LINE}\n🔘 Button test\nStyle: ${current.toUpperCase()}\n\nTap a button below.\n${LINE}`,
-      footer: "Button test • BMB-TECH",
+      footer: "Button test • PK-XMD",
       title: "BUTTON TEST",
       buttons: [
         { text: buttons.boldFont("Show Style"), id: `${p}buttonstyle` },

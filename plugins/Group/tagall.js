@@ -1,4 +1,4 @@
-const { bmbtz } = require("../../devbmb/bmbtz");
+const { bmbtz } = require("../../devpk/bmbtz");
 
 bmbtz({ nomCom: "tagall", alias: ["everyone", "all", "tagmembers"], categorie: 'Group', reaction: "📣" }, async (dest, client, commandeOptions) => {
 

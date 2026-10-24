@@ -26,7 +26,7 @@
  * The typed commands (".anticall on", ".mode private", ".setwarnlimit 4", ".setprefix #") work as before.
  * Tapping a button runs the command on it as the person who tapped, so only the owner can change anything.
  */
-const { bmbtz } = require("../../devbmb/bmbtz");
+const { bmbtz } = require("../../devpk/bmbtz");
 const { getCachedSettingsSync, updateCachedSetting } = require("../../lib/settingsCache");
 const s = require("../../settings");
 const ownerAccess = require("../../lib/ownerAccess");
@@ -44,7 +44,7 @@ try {
   };
 }
 
-const NEWSLETTER_JID = "120363382023564830@newsletter";
+const NEWSLETTER_JID = "120363417804135599@newsletterr";
 const NEWSLETTER_NAME = "B.M.B TECH OFFICIAL";
 
 const newsletterContext = {
@@ -80,7 +80,7 @@ async function sendBox(chatId, client, ms, title, message) {
 function sendCard(chatId, client, title, message, buttonList) {
   return buttons.sendButtons(client, chatId, {
     body: boxText(title, message),
-    footer: "Settings • BMB-TECH",
+    footer: "Settings • PK-XMD",
     title,
     buttons: buttonList,
   });

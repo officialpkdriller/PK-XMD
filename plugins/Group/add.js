@@ -1,10 +1,10 @@
-const { bmbtz } = require('../../devbmb/bmbtz');
+const { bmbtz } = require('../../devpk/bmbtz');
 const { getBinaryNodeChild, getBinaryNodeChildren } = require('@whiskeysockets/baileys');
 
 /**
  * add
  *
- * Fixed/ported from NOVA-XMD's plugins/Groups/add.js. The old BMB-TECH
+ * Fixed/ported from NOVA-XMD's plugins/Groups/add.js. The old PK-XMD
  * version (previously in popsstand1.js) had two bugs that made it
  * effectively unusable:
  *   1. It required superUser (bot owner) in addition to being a group
@@ -177,7 +177,7 @@ bmbtz({
 
         if (inviteCode) {
             await client.sendMessage(jid, {
-                text: `You have been invited to join the group *${groupMetadata.subject}*:\n\nhttps://chat.whatsapp.com/${inviteCode}\n\n*POWERED BY BMB-TECH*`,
+                text: `You have been invited to join the group *${groupMetadata.subject}*:\n\nhttps://chat.whatsapp.com/${inviteCode}\n\n*POWERED BY PK-XMD*`,
             }).catch(() => {});
         }
     }
