@@ -1,0 +1,27 @@
+{
+  "name": "BMB-TECH",
+  "description": "ʙᴇsᴛ ᴡʜᴀᴛsᴀᴘᴘ ʙᴏᴛ ᴅᴇᴠᴇʟᴏᴘᴇᴅ ʙʏ ʙᴍʙ ᴛᴇᴄʜ 🇹🇿",
+  "keywords": ["bot", "node", "baileys", "whatsapp"],
+  "logo": "https://files.catbox.moe/hflcbc.jpg",
+  "repository": "https://github.com/novaxmd/BMB-TECH",
+  "succes_url": "/",
+  "stack": "heroku-24",
+  "env": {
+    "SESSION_ID": {
+      "description": "Your session ID — the code you receive after scanning the QR code / pairing.",
+      "value": "",
+      "required": true
+    }
+  },
+  "formation": {
+    "web": {
+      "quantity": 1,
+      "size": "basic"
+    }
+  },
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    }
+  ]
+}
