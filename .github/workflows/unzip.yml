@@ -1,0 +1,48 @@
+name: Auto Unzip Multi-Folder Project
+
+on:
+  push:
+    paths:
+      - 'project.zip'
+
+jobs:
+  unzip_process:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Install Unzip
+        run: sudo apt-get install -y unzip
+
+      - name: Extract Project Files
+        run: |
+          # 1. Create a temporary folder and unzip there
+          mkdir temp_extracted
+          unzip -o project.zip -d temp_extracted/
+          
+          # 2. Find the first folder inside temp_extracted (whatever its name)
+          INTERNAL_FOLDER=$(find temp_extracted -maxdepth 1 -mindepth 1 -type d | head -n 1)
+          
+          # 3. If a folder was found, move everything inside it to the root
+          if [ -n "$INTERNAL_FOLDER" ]; then
+            echo "Moving files from: $INTERNAL_FOLDER"
+            mv "$INTERNAL_FOLDER"/* ./ 2>/dev/null || true
+            mv "$INTERNAL_FOLDER"/.* ./ 2>/dev/null || true
+          else
+            # If no inner folder (files are already directly inside), move them directly
+            mv temp_extracted/* ./ 2>/dev/null || true
+            mv temp_extracted/.* ./ 2>/dev/null || true
+          fi
+          
+          # 4. Clean up
+          rm -rf temp_extracted
+          rm -f project.zip
+
+      - name: Commit and Push folders to Repo
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git add .
+          git commit -m "Extract all sub-folders (src, public, etc) automatically" || exit 0
+          git push
